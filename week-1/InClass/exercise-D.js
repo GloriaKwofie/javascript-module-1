@@ -1,2 +1,2 @@
 let color = ("blue, yellow ");
-console.log(color);   
+console.log(typeof color);   

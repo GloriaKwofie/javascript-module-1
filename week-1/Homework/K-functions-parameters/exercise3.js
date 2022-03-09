@@ -1,10 +1,10 @@
 // Write your function 
-function greet(name, _Greeting) {
+function creategreeting(name) {
     return "Hello "+ "my name is " +  name ;
   }
     
 
 
-var greeting = Greet("Daniel");
+var greeting = createGreeting("Daniel");
 
 console.log(greeting);

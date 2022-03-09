@@ -1,24 +1,13 @@
 // Declare your function here
 
-function createGreeting(name, age) {
-    var age = getAge(age);
-    var message =
-      "Hello my Name is " + name + " and I'm " + ageInDays + " days ago!";
-    return message;
+function createLongGreeting(name, age) {
+    return `Hello my name is ${name} and i am ${age}`;
   }
 
-const greeting = createLongGreeting("Daniel");
+const greeting = createLongGreeting("Gloria", 30);
 
 console.log(greeting);
 
 
 
 
-
-
-function createCreeting(name, age) {
-    var ageInDays = getAgeInDays(age);
-    var message =
-      "My Name is " + name + " and I was born over " + ageInDays + " days ago!";
-    return message;
-  }
