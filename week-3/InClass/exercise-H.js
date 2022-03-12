@@ -1,4 +1,6 @@
 const names = ['Daniel', 'Matthew', 'Irina', 'James']
+
+const Name_To_Find = 'James'
 function findName(names) {
    if (names.includes(Name_To_Find)){
        return 'Found Me'
@@ -7,5 +9,4 @@ function findName(names) {
    return 'Havent fount me'
 }
 
-console.log('Matthew');
-console.log('Daniel');
+console.log(findName(names));
