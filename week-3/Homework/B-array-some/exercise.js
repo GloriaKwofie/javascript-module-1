@@ -15,6 +15,11 @@ var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]];
 var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
 
+
+if (pairsByIndex.some((i) => i === null)) {
+  throw 'Error! can`t process null values'
+}
+
 var pairs = pairsByIndex.map(function(indexes) {
   var student = students[indexes[0]];
   var mentor = mentors[indexes[1]];
